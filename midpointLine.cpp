@@ -37,7 +37,7 @@ void printPoints(int type, int pseudo, int x0, int x1, int y0, int y1)
 	int x=x0,y=y0;
 	
 	if (type == 1 || type == 2)
-    glVertex2i(x,y);
+	glVertex2i(x,y);
 	else // Reflection being taken for the line in 1st quadrant to get the line in 2nd quadrant
 	glVertex2i(WIDTH-x, y);
 
