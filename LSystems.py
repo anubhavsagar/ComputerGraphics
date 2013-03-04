@@ -1,5 +1,9 @@
 # Basic L Systems Implementation
-
+'''
+A basic version of Lindenmayer Systems (popularly known as L Systems)
+based on the paper Graphical Applications of L-systems by Przemyslaw Prusinkiewicz.
+Implements only 0L-system. Axioms, Rules can be added to improve the variety of images being drawn 
+'''
 
 from time import *
 from OpenGL.GL import *
